@@ -1,0 +1,30 @@
+## Privacy Policy
+
+**Effective Date:** September 20, 2025  
+
+1. **Information We Collect**  
+- Discord user ID  
+- Server ID  
+- User commands and interactions  
+
+2. **How We Use Data**  
+- Operate and improve the Bot  
+- Respond to commands  
+- Data will not be sold or shared  
+
+3. **Data Storage**  
+- Data is stored securely and only as needed  
+
+4. **Third-Party Services**  
+- May use analytics or hosting services which collect data under their policies  
+
+5. **User Rights**  
+- You can request data deletion or report privacy concerns via [EMAIL=dafis.owner@gmail.com|DISCORD=fisch.batman]  
+
+6. **Changes to Policy**  
+- Policy may be updated; changes communicated via Discord or website  
+
+7. **Contact**  
+- Questions about privacy can be sent to [EMAIL=dafis.owner@gmail.com|DISCORD=fisch.batman]  
+
+---
