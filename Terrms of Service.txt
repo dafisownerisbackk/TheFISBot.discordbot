@@ -1,0 +1,30 @@
+## Terms of Service (ToS)
+
+**Effective Date:** September 20, 2025  
+
+1. **Acceptance of Terms**  
+By using **TheFISBot**, you agree to comply with these Terms. If you do not agree, do not use the Bot.  
+
+2. **Bot Usage**  
+- Provided "as-is" without warranties  
+- Use only for lawful purposes in accordance with Discord’s Terms of Service  
+- Do not exploit or reverse-engineer the Bot  
+
+3. **User Responsibilities**  
+- You are responsible for content you generate  
+- Do not harass, spam, or harm others  
+
+4. **Limitation of Liability**  
+- Developer is not responsible for damage or loss from using the Bot  
+- Bot may be offline or malfunction  
+
+5. **Changes to the Bot**  
+- Developer may update, modify, or discontinue the Bot at any time  
+
+6. **Termination**  
+- Access may be revoked for violating these terms  
+
+7. **Governing Law**  
+- These terms are governed by the laws of [Germany]  
+
+---
