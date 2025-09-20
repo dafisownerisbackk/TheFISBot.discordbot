@@ -1,0 +1,20 @@
+# TheFISBot
+
+**TheFISBot** is a Discord bot designed to provide [brief description of your bot’s main features, e.g., moderation, fun commands, economy system, etc.].  
+
+---
+
+## Features
+
+- Feature 1: [Short description]  
+- Feature 2: [Short description]  
+- Feature 3: [Short description]  
+
+---
+
+## Installation
+
+1. **Clone the repository**  
+```bash
+git clone https://github.com/yourusername/TheFISBot.git
+cd TheFISBot
