@@ -1,20 +1,186 @@
 # TheFISBot
 
-**TheFISBot** is a Discord bot designed to provide [brief description of your bot’s main features, e.g., moderation, fun commands, economy system, etc.].  
+**TheFISBot** is a versatile Discord bot with features for games, economy, music, moderation, leveling, image manipulation, events, and more.
 
 ---
 
-## Features
+## Bot Commands List
 
-- Feature 1: [Short description]  
-- Feature 2: [Short description]  
-- Feature 3: [Short description]  
+### 🎮 Games & Economy
+- `m.balance [user]` - Check your or another user's balance  
+- `m.daily` - Claim daily coins (24h cooldown)  
+- `m.work` - Work to earn coins (1h cooldown)  
+- `m.rob [user]` - Attempt to rob another user  
+- `m.gamble [amount]` - 50/50 chance to double or lose your bet  
+- `m.lottery` - Buy lottery ticket for chance to win big  
+
+### 📊 Stock Market
+- `m.stonks` - View your stock portfolio  
+- `m.stonks view [symbol]` - View specific stock chart  
+- `m.stonks chart` - Interactive stock selection  
+- `m.buystonk [symbol] [amount]` - Buy stocks  
+- `m.sellstonk [symbol] [amount]` - Sell stocks  
+
+### 🃏 Casino Games
+- `m.blackjack [bet]` - Play Blackjack against dealer  
+- `m.slot [bet]` - Play slot machine  
+- `m.roulette [bet] [choice]` - Bet on roulette (red/black/green/number)  
+
+### ⚙️ Moderation
+- `m.mute [user] [duration]` - Mute a user (1h, 30m formats)  
+- `m.unmute [user]` - Unmute a user  
+- `m.warn [user] [reason]` - Warn a user  
+- `m.tempmutes` - Show active temporary mutes  
+- `m.purgeuser [user]` - Delete messages from specific user  
+- `m.slowmode [seconds]` - Set channel slowmode  
+- `m.raidmode` - Enable/disable raid protection  
+
+### 📈 Leveling System
+- `m.level [user]` - Check your level and progress  
+- `m.leaderboard` - Server level leaderboard  
+- `m.rankcard` - Visual level progress card  
+- `m.setlevelreward` - Set level rewards (Admin)  
+- `m.levelrewards` - View level rewards  
+
+### 🎵 Music Player
+- `m.join` - Join voice channel  
+- `m.play [song]` - Play YouTube audio  
+- `m.pause` - Pause music  
+- `m.resume` - Resume music  
+- `m.skip` - Skip current song  
+- `m.queue` - Show music queue  
+- `m.stop` - Stop music and clear queue  
+
+### 🖼️ Image Manipulation
+- `m.blur [user]` - Blur user's avatar  
+- `m.invert [user]` - Invert avatar colors  
+- `m.deepfry [user]` - Deepfry avatar  
+- `m.caption [user] [text]` - Add caption to avatar  
+- `m.mirror [user]` - Mirror avatar horizontally  
+- `m.flip [user]` - Flip avatar vertically  
+
+### 📅 Events & Giveaways
+- `m.event create [name] [time] [duration] [desc]` - Create server event  
+- `m.event list` - List scheduled events  
+- `m.event cancel [id]` - Cancel event  
+- `m.giveaway create [duration] [winners] [prize]` - Start giveaway  
+- `m.giveaway end [id]` - End giveaway early  
+- `m.giveaway reroll [id]` - Reroll giveaway winner  
+
+### 🛠️ Utility Commands
+- `m.avatar [user]` - Get user's avatar  
+- `m.userinfo [user]` - Detailed user information  
+- `m.serverinfo` - Server information and stats  
+- `m.poll [question]` - Create simple poll  
+- `m.poll [question]; [option1]; [option2]` - Multi-option poll  
+- `m.timer [duration] [reason]` - Set personal timer  
+- `m.time [timezone]` - Check time in different timezone  
+- `m.weather [city]` - Get weather information  
+- `m.define [word]` - Get word definition  
+- `m.remind [time] [message]` - Set personal reminder  
+
+### 🔧 Configuration (Admin)
+- `m.setprefix [prefix]` - Change server prefix  
+- `m.setwelcome [channel]` - Set welcome channel  
+- `m.setmodlog [channel]` - Set moderation log channel  
+- `m.config` - View server configuration  
+- `m.settings` - Server settings panel  
+- `m.blockdomain [domain]` - Block links from domain  
+- `m.unblockdomain [domain]` - Unblock domain  
+- `m.allowlinks [channel]` - Allow links in channel  
+- `m.linkrole [role]` - Allow role to post links  
+
+### 🎉 Welcome System
+- `m.setdefaultrole [role]` - Set auto-role for new members  
+- `m.testwelcome` - Test welcome message  
+- `m.testgoodbye` - Test goodbye message  
+
+### 🛡️ Automod Features
+- Automatic spam protection  
+- Bad word filtering  
+- Excessive mention prevention  
+- Invite link blocking  
+- Raid mode protection  
+
+### 📊 Additional Features
+- Stock market with real-time charts  
+- Economy system with daily rewards  
+- Leveling system with rewards  
+- Music streaming from YouTube  
+- Image manipulation tools  
+- Event scheduling system  
+- Giveaway management  
+- Custom prefix per server  
+- Welcome/goodbye messages  
+- Auto-moderation system  
+- Role management tools  
 
 ---
 
-## Installation
+## Terms of Service (ToS)
 
-1. **Clone the repository**  
-```bash
-git clone https://github.com/yourusername/TheFISBot.git
-cd TheFISBot
+**Effective Date:** September 20, 2025  
+
+1. **Acceptance of Terms**  
+By using **TheFISBot**, you agree to comply with these Terms. If you do not agree, do not use the Bot.  
+
+2. **Bot Usage**  
+- Provided "as-is" without warranties  
+- Use only for lawful purposes in accordance with Discord’s Terms of Service  
+- Do not exploit or reverse-engineer the Bot  
+
+3. **User Responsibilities**  
+- You are responsible for content you generate  
+- Do not harass, spam, or harm others  
+
+4. **Limitation of Liability**  
+- Developer is not responsible for damage or loss from using the Bot  
+- Bot may be offline or malfunction  
+
+5. **Changes to the Bot**  
+- Developer may update, modify, or discontinue the Bot at any time  
+
+6. **Termination**  
+- Access may be revoked for violating these terms  
+
+7. **Governing Law**  
+- These terms are governed by the laws of [Your Country/State]  
+
+---
+
+## Privacy Policy
+
+**Effective Date:** September 20, 2025  
+
+1. **Information We Collect**  
+- Discord user ID  
+- Server ID  
+- User commands and interactions  
+
+2. **How We Use Data**  
+- Operate and improve the Bot  
+- Respond to commands  
+- Data will not be sold or shared  
+
+3. **Data Storage**  
+- Data is stored securely and only as needed  
+
+4. **Third-Party Services**  
+- May use analytics or hosting services which collect data under their policies  
+
+5. **User Rights**  
+- You can request data deletion or report privacy concerns via [EMAIL=dafis.owner@gmail.com|DISCORD=fisch.batman]  
+
+6. **Changes to Policy**  
+- Policy may be updated; changes communicated via Discord or website  
+
+7. **Contact**  
+- Questions about privacy can be sent to [EMAIL=dafis.owner@gmail.com|DISCORD=fisch.batman]  
+
+---
+
+## Support & Contributions
+
+ 
+- Contributions welcome! Fork the repository and submit a pull request  
+
